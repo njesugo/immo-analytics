@@ -1,0 +1,25 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets (ne jamais commiter)
+.env
+*.p8
+*.pem
+*.key
+profiles.yml
+.snowflake/
+.user.yml
+
+# Artefacts dbt (régénérables)
+target/
+dbt_packages/
+logs/
+
+# Données générées (volumineuses, régénérables)
+data/
+
+# Divers
+.DS_Store
+.vscode/
